@@ -8,9 +8,40 @@
 }
 
 header {
-    background-color: var(--primary-color);
-    color: var(--accent2-color);
+	display: grid;
+	grid-template-columns: 150px 1fr 1fr;
+    column-gap: Auto;
+	align-items: center;
 }
+
+.logo img {
+	margin: 10 rem 5 1rem;
+	width: 100px;
+	height: 100px;
+}
+
+.navigation {
+	display: flex;
+	list-style: none;
+    font-family: var(--heading-font);
+   
+}
+
+.navigation a {
+	display: block;
+	color: orange;
+	padding: 50px;
+	text-decoration: none;
+	font-size: 1.2rem;
+}
+
+.navigation a:hover {
+	color: tomato;
+	font-weight: 700;
+	text-decoration: underline;
+}
+
+
 
 * {
     margin: 0;
@@ -49,32 +80,80 @@ nav, p, section, article {
 .hero img {
     display: block;
     width: 100%;
-    height:  auto;
+    height: auto;
 }
 
 h1 {
     position: absolute;
-    top: 20px;
-    width: 100px;
+    top: 70px;
+    width: 100%;
     padding: 16px;
     text-align: center;
     opacity: 0.7;
-    background-color: var(--accent1-color);
     color: #fff;
+}
+
+h2 {
+    color: red;
 }
 
 article {
-    position: absolute;
-    bottom: 50px;
+    position:absolute;
+    bottom: 260px;
     width: 800px;
-    padding: 16px;
-    text-align: justify;
-    opacity: 0.7;
+    padding: 20px;
+    text-align: center;
+    opacity: 0.5;
     background-color: var(--accent1-color);
-    color: #fff;
+    color: green;
 }
 
 .hero article img {
-    float: left;
-    width: 125px;
+    float: right;
+    bottom: 5px;
+    width: 150px;
+    height: 120px;
+}
+
+section {
+    position: relative;
+    width: 96%;
+    text-align: center;
+    background-color: var(--accent1-color);
+    color: green;
+
+}
+
+.awaits {
+    display: flex;
+    justify-content:space-between;
+    background-color: white;
+
+}
+
+.awaits img {
+    float:right;
+    width: 80%;
+    height: auto;
+
+}
+
+.pictures {
+	display: flex;
+	list-style: none;
+    font-family: var(--heading-font);
+   
+}
+
+.socialmedia img {
+    float:right;
+    width: 5%;
+    height: auto;
+}
+
+figcaption {
+  color: green;
+  font: italic smaller sans-serif;
+  padding: 5%;
+  text-align:right
 }
