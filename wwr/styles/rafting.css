@@ -10,12 +10,11 @@
 header {
 	display: grid;
 	grid-template-columns: 150px 1fr 1fr;
-    column-gap: Auto;
 	align-items: center;
 }
 
 .logo img {
-	margin: 10 rem 5 1rem;
+	margin: 10rem 5rem 1rem;
 	width: 100px;
 	height: 100px;
 }
