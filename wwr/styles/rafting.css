@@ -89,7 +89,7 @@ h1 {
     padding: 16px;
     text-align: center;
     opacity: 0.7;
-    color: #fff;
+    color: whitesmoke;
 }
 
 h2 {
@@ -161,4 +161,14 @@ figcaption {
 	display: block;
     width: 38%;
     height: auto;
+}
+
+.title, h1 {
+    position: absolute;
+    top: 70px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7;
+    color: red;
 }
