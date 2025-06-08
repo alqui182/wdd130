@@ -156,3 +156,9 @@ figcaption {
   padding: 5%;
   text-align:right
 }
+
+.employees {
+	display: block;
+    width: 38%;
+    height: auto;
+}
